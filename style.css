@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+}
+
+nav img {
+    width: 50px;
+    height: auto;
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    display: inline-block;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+
+.forms {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    float: right;     
+}
+
+form {
+    display: inline;
+}
+
+.input-info {
+    border: solid 3px transparent;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 5px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 6px;
+    display: inline;
+    border: solid 3px transparent;
+    border-radius: 2px;
+    background-color: #0AD48B;
+    color: white;
+    font-size: 12px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(3, 129, 83);
+}
+.signup {
+    text-decoration: none;
+    color: black;
+    background-color: #ebebeb;
+}
+
+.signup:hover {
+    background-color: #b4b4b4;
+}
+
+.form-signup-head {
+    text-align: center;
+}
+
+.form-signup input {
+    display: block;
+    width: 200px;
+}
+
+.form-signup .btn {
+    float: right;
+}
+
+.signuperror {
+    color: red;
+}
+
+.signupsuccess {
+    color: green;
+}
